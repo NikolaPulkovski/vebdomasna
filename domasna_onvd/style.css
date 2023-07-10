@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Nav Bar*/
+
+.nav-bar{
+    /*display: block;*/
+    display: flex;
+    justify-content: end;
+    padding: 10px 0;
+
+    /*background-color: #2d2d2d;*/
+    background-color: #3DA35D;
+    border: 2px solid #134611;
+}
+
+
+body > div.nav-bar > a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    /*color: #fff;*/
+    color: #134611;
+    /*font-style: italic;*/
+    border-left: 2px solid #134611;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+body > div.nav-bar > a:hover{
+    transition: 400ms;
+    /*color: #505050;*/
+    color: #fff;
+}
+/*Index HTML*/
+
+.img-me-img{
+    margin-left: 75px;
+}
+
+.container-index{
+    display: flex;
+    margin: 100px auto;
+    width: 1000px;
+}
+
+.img-index
+{
+    /*background: pink;*/
+    width: 500px;
+    height: 500px;
+}
+
+.text-index{
+    /*background: lightblue;*/
+    background: #3DA35D;
+    padding-top: 150px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+}
+
+.text-index p{
+    margin-bottom: 20px;
+}
+
+/*Education*/
+
+.container-education{
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.elementary{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.text-elementary{
+    width: 500px;
+    text-align: justify;
+}
+
+.img-elementary{
+    padding-left: 100px;
+    width: 500px;
+}
+
+.highschool{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text-highschool{
+    width: 500px;
+    text-align: justify;
+}
+
+.img-highschool{
+    padding-left: 100px;
+    width: 500px;
+}
+
+/*Hobbies*/
+
+.container-hobbies{
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.formula{
+    width: 1000px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.text-formula{
+    width: 500px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.rubix{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text-rubix{
+    padding-left: 100px;
+    text-align: justify;
+}
+
+/*Contact*/
+
+h2 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3DA35D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #379354;
+}
